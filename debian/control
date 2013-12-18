@@ -1,0 +1,12 @@
+Source: ros-hydro-r2-teleop
+Section: misc
+Priority: extra
+Maintainer: Paul Dinh <paul@todo.todo>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-interactive-markers, ros-hydro-orocos-kdl, ros-hydro-r2-msgs, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://ros.org/wiki/r2_teleop
+Standards-Version: 3.9.2
+
+Package: ros-hydro-r2-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-interactive-markers, ros-hydro-orocos-kdl, ros-hydro-r2-msgs, ros-hydro-sensor-msgs, ros-hydro-tf
+Description: The r2_teleop package
