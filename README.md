@@ -1,3 +1,27 @@
+## nasa_r2_common - 0.1.3-0
+
+User `dlu@monolith` released the packages in the `nasa_r2_common` repository by running `/usr/bin/bloom-release nasa_r2_common --track hydro --rosdistro hydro` on `Sun, 19 Jan 2014 21:19:36 -0000`
+
+These packages were released:
+- `nasa_r2_common`
+- `r2_description`
+- `r2_dynamic_reconfigure`
+- `r2_msgs`
+- `r2_teleop`
+
+Version of package(s) in repository `nasa_r2_common`:
+- rosdistro version: `0.0.2-0`
+- old version: `0.1.2-0`
+- new version: `0.1.3-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.20`
+- rosdep version: `0.10.18`
+- rosdistro version: `0.2.14`
+- vcstools version: `0.1.31`
+
+
 ## nasa_r2_common - 0.1.2-0
 
 User `dlu@monolith` released the packages in the `nasa_r2_common` repository by running `/usr/bin/bloom-release nasa_r2_common --track hydro --rosdistro hydro` on `Sun, 19 Jan 2014 20:08:16 -0000`
