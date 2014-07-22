@@ -1,0 +1,12 @@
+Source: ros-hydro-r2-moveit-config
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-r2-gazebo
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-hydro-r2-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-joint-state-publisher, ros-hydro-moveit-planners-ompl, ros-hydro-moveit-ros-benchmarks, ros-hydro-moveit-ros-move-group, ros-hydro-moveit-ros-visualization, ros-hydro-moveit-ros-warehouse, ros-hydro-moveit-setup-assistant, ros-hydro-r2-gazebo, ros-hydro-robot-state-publisher, ros-hydro-rviz, ros-hydro-warehouse-ros, ros-hydro-xacro
+Description: An automatically generated package with all the configuration and launch files for using the r2 with the MoveIt Motion Planning Framework
