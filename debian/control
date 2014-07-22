@@ -1,0 +1,12 @@
+Source: ros-hydro-r2-msgs
+Section: misc
+Priority: extra
+Maintainer: Stephen Hart <stephen.hart@nasa.gov>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-message-runtime, ros-hydro-std-msgs, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/r2_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-r2-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-message-runtime, ros-hydro-std-msgs, ros-hydro-visualization-msgs
+Description: Messages for dealing with the Robonaut2/ISS Taskboard
